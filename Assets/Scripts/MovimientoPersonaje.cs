@@ -6,12 +6,15 @@ public class MovimientoPersonaje : MonoBehaviour
 {
     float velocidad = 5f;
     float fuerzaSalto = 5F;
+    int limiteSaltos = 1;
+    int saltosHechos;
 
     Rigidbody2D rb;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        saltosHechos = 0;
     }
 
     void Update()
@@ -36,7 +39,11 @@ public class MovimientoPersonaje : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            rb.AddForce(new Vector2(0f, fuerzaSalto), ForceMode2D.Impulse);
+            if (saltosHechos<limiteSaltos)
+            {
+                rb.AddForce(new Vector2(0f, fuerzaSalto), ForceMode2D.Impulse);
+                saltosHechos++;
+            }
         }
     }
 }
