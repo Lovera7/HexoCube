@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 435584946}
   m_Layer: 0
   m_Name: selo-3 (1)
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -155,18 +155,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.021546364, y: 0}
+  m_Offset: {x: -0.039094448, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 2, y: 0.85}
-    newSize: {x: 18.99673, y: 0.33288464}
+    newSize: {x: 17.768368, y: 0.33288464}
     adaptiveTilingThreshold: 0.5
     drawMode: 2
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 18.999517, y: 0.33288574}
+  m_Size: {x: 17.771156, y: 0.33288574}
   m_EdgeRadius: 0
 --- !u!95 &435584947
 Animator:
@@ -232,7 +232,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 18.99673, y: 0.33288464}
+  m_Size: {x: 17.768368, y: 0.33288464}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -246,7 +246,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 435584945}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.03, y: 4.7986, z: 0}
+  m_LocalPosition: {x: 0.0476, y: 4.7986, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 735762387}
   m_Layer: 0
   m_Name: selo-3 (3)
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -375,7 +375,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 735762386}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071624, w: 0.7070513}
-  m_LocalPosition: {x: 9.34, y: 0.25, z: 0}
+  m_LocalPosition: {x: 8.71, y: 0.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -508,7 +508,7 @@ GameObject:
   - component: {fileID: 1854870320}
   m_Layer: 0
   m_Name: selo-3 (2)
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -617,7 +617,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1854870319}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071624, w: 0.7070513}
-  m_LocalPosition: {x: -9.3308, y: 0.2488, z: 0}
+  m_LocalPosition: {x: -8.7, y: 0.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -817,7 +817,7 @@ GameObject:
   - component: {fileID: 2142211825}
   m_Layer: 0
   m_Name: selo-3
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -835,18 +835,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.021546364, y: 0}
+  m_Offset: {x: -0.02154684, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 2, y: 0.85}
-    newSize: {x: 18.99673, y: 0.85}
+    newSize: {x: 17.768368, y: 0.85}
     adaptiveTilingThreshold: 0.5
     drawMode: 2
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 18.999517, y: 0.85}
+  m_Size: {x: 17.806252, y: 0.85}
   m_EdgeRadius: 0
 --- !u!95 &2142211826
 Animator:
@@ -912,7 +912,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 18.99673, y: 0.85}
+  m_Size: {x: 17.768368, y: 0.85}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -926,7 +926,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2142211824}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0301, y: -4.55, z: 0}
+  m_LocalPosition: {x: 0.0125, y: -4.55, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
