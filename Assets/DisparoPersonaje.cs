@@ -11,7 +11,7 @@ public class DisparoPersonaje : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Instantiate(balaPrototipo, spawn.position, spawn.rotation);
+            Instantiate(balaPrototipo, spawn);
         }
     }
 }
