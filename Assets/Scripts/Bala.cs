@@ -13,10 +13,6 @@ public class Bala : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //if (collision.tag == "Asteroide")
-        //{
-        //    collision.GetComponent<Asteroide>().RecibirDanho();
-        //    Destroy(gameObject);
-        //}
+        
     }
 }
