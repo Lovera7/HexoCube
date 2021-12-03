@@ -210,6 +210,20 @@ Received Import Request.
 Start importing Assets/Scripts using Guid(4e6dfaf662c24400f9d6440aace3d82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c4c2051d99095b3ddb91e849416f1c') in 0.013075 seconds 
   Import took 0.018895 seconds .
 
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2542.
+Total: 3.062800 ms (FindLiveObjects: 0.199800 ms CreateObjectMapping: 0.078700 ms MarkObjects: 2.763200 ms  DeleteObjects: 0.019700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
   Time since last request: 9.461823 seconds.
@@ -292,6 +306,20 @@ Received Import Request.
 Start importing Assets/Scripts/MovimientoPersonaje.cs using Guid(f30c639f63a884a5fbf3e7c79268f765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd596a1f980b7bdeee9ae2a3bdd4b527') in 0.013120 seconds 
   Import took 0.062865 seconds .
 
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2551.
+Total: 3.121100 ms (FindLiveObjects: 0.208400 ms CreateObjectMapping: 0.087600 ms MarkObjects: 2.800400 ms  DeleteObjects: 0.023400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
