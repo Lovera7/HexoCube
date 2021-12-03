@@ -46,4 +46,12 @@ public class MovimientoPersonaje : MonoBehaviour
             }
         }
     }
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.collider.tag == "Suelo")
+        {
+            saltosHechos = 0;
+        }
+    }
+
 }
