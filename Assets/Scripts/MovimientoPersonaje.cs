@@ -5,7 +5,7 @@ using UnityEngine;
 public class MovimientoPersonaje : MonoBehaviour
 {
     float velocidad = 5f;
-    float fuerzaSalto = 5F;
+    public float fuerzaSalto = 5F;
     int limiteSaltos = 1;
     int saltosHechos;
 
