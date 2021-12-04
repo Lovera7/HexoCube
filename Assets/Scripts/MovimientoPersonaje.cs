@@ -19,8 +19,10 @@ public class MovimientoPersonaje : MonoBehaviour
 
     void Update()
     {
+        //mover a la derecha
         if (Input.GetKey(KeyCode.RightArrow))
         {
+            //Este if sirve para que el personaje gire a la derecha o izquierda
             if (GetComponent<SpriteRenderer>().flipX == true)
             {
                 GetComponent<SpriteRenderer>().flipX = false;            
@@ -28,8 +30,10 @@ public class MovimientoPersonaje : MonoBehaviour
             transform.Translate(velocidad * Time.deltaTime, 0, 0);
         }
 
+        //mover a la izquierda
         if (Input.GetKey(KeyCode.LeftArrow))
         {
+            //Este if sirve para que el personaje gire a la derecha o izquierda
             if (GetComponent<SpriteRenderer>().flipX == false)
             {
                 GetComponent<SpriteRenderer>().flipX = true;
@@ -37,6 +41,7 @@ public class MovimientoPersonaje : MonoBehaviour
             transform.Translate( velocidad * -Time.deltaTime, 0, 0);
         }
 
+        //para realizar saltos
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             if (saltosHechos<limiteSaltos)
@@ -46,6 +51,8 @@ public class MovimientoPersonaje : MonoBehaviour
             }
         }
     }
+
+    //para reserear la cantidad de saltos que se puedan realizar
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.collider.tag == "Suelo")

@@ -4,24 +4,15 @@ using UnityEngine;
 
 public class Matar_Jugador : MonoBehaviour
 {
-    public Transform spawn;
-    public GameObject Jugador;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Transform spawn; //lugar de origen del  jugador
+    public GameObject Jugador; //Asset Jugador
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    //Cuando choquen colliders y se calide de que sea el jugador se eliminara y se instanciara uno nuevo
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player")
         {
-            Debug.Log(other.tag);
+            //Debug.Log(other.tag);
             Destroy(other.gameObject);
             Instantiate(Jugador, spawn.position, spawn.rotation);
         }
