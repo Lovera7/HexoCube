@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Matar_Jugador : MonoBehaviour
 {
+    public Transform spawn;
+    public GameObject Jugador;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +23,7 @@ public class Matar_Jugador : MonoBehaviour
         {
             Debug.Log(other.tag);
             Destroy(other.gameObject);
+            Instantiate(Jugador, spawn.position, spawn.rotation);
         }
     }
 }

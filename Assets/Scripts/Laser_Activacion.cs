@@ -5,6 +5,7 @@ using UnityEngine;
 public class Laser_Activacion : MonoBehaviour
 {
     public GameObject desactivar;
+    public float tiempoDesactivado;
     // Start is called before the first frame update
     IEnumerator Start()
     {
@@ -13,7 +14,7 @@ public class Laser_Activacion : MonoBehaviour
             desactivar.SetActive(true);
             yield return new WaitForSeconds(1.8f);
             desactivar.SetActive(false);
-            yield return new WaitForSeconds(3f);
+            yield return new WaitForSeconds(tiempoDesactivado);
         }
     }
 
