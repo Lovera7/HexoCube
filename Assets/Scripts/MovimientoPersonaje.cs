@@ -8,6 +8,7 @@ public class MovimientoPersonaje : MonoBehaviour
     public float fuerzaSalto = 5F;
     int limiteSaltos = 1;
     int saltosHechos;
+    public GameObject sonidoSalto;
 
     Rigidbody2D rb;
 
@@ -48,6 +49,7 @@ public class MovimientoPersonaje : MonoBehaviour
             {
                 rb.AddForce(new Vector2(0f, fuerzaSalto), ForceMode2D.Impulse);
                 saltosHechos++;
+                Instantiate(sonidoSalto);
             }
         }
     }

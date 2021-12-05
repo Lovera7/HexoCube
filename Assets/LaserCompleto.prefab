@@ -200,6 +200,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawn: {fileID: 1362328723440833723, guid: e8ed10d8fc6277442a1b54da5e46a9f8, type: 3}
   Jugador: {fileID: 4579737051957330547, guid: 8a52387f5fe73a8409bf07e24383ecbd, type: 3}
+  sonidoMuerte: {fileID: 481079456863308294, guid: b23a1d39e6330194882a1ce853052d40, type: 3}
 --- !u!61 &2708379192920708732
 BoxCollider2D:
   m_ObjectHideFlags: 0

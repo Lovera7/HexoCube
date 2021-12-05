@@ -120,6 +120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fuerzaSalto: 12
+  sonidoSalto: {fileID: 1309163710686930104, guid: 37400123c20e7f54794abc1115c53957, type: 3}
 --- !u!61 &4579737051835869238
 BoxCollider2D:
   m_ObjectHideFlags: 0
