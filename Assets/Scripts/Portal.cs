@@ -11,6 +11,7 @@ public class Portal : MonoBehaviour
         if (other.tag == "Player")
         {
             SceneManager.LoadScene("Ganaste");
+
         }
     }
 }
