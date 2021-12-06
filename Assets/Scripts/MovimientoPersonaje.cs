@@ -9,6 +9,7 @@ public class MovimientoPersonaje : MonoBehaviour
     int limiteSaltos = 1;
     int saltosHechos;
     public GameObject sonidoSalto;
+    public GameObject balaPrototipo;
 
     Rigidbody2D rb;
 
@@ -52,6 +53,24 @@ public class MovimientoPersonaje : MonoBehaviour
                 Instantiate(sonidoSalto);
             }
         }
+
+        // presionar boton de disparo
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Shoot();
+        }
+    }
+
+    // Funcion para disparar
+    private void Shoot()
+    {
+        Vector3 direction;
+
+        if (GetComponent<SpriteRenderer>().flipX == false) direction = Vector2.right;
+        else direction = Vector2.left;
+
+        GameObject bala = Instantiate(balaPrototipo, transform.position + direction * 0.1f, Quaternion.identity);
+        bala.GetComponent<Bala>().SetDirection(direction);
     }
 
     //para reserear la cantidad de saltos que se puedan realizar
