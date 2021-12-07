@@ -10,14 +10,13 @@ GameObject:
   m_Component:
   - component: {fileID: 5140029129881406116}
   - component: {fileID: 2566159823412901609}
-  - component: {fileID: 1334859559}
   m_Layer: 0
   m_Name: Sonido Salto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &5140029129881406116
 Transform:
   m_ObjectHideFlags: 0
@@ -128,16 +127,3 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1334859559
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8110076312207743360}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fa6129609458d643b350b4a01982737, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tiempoVida: 0.6
