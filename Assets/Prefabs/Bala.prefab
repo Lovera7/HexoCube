@@ -155,3 +155,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 7
+  sonidoExoplosion: {fileID: 4155344676078891716, guid: 34f0135d9edf84a41badffca2bcd9d0f, type: 3}
