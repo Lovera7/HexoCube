@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 4579737051835869233}
   - component: {fileID: 4579737051835869236}
   - component: {fileID: 4579737051835869238}
-  - component: {fileID: 4579737051835869239}
   - component: {fileID: 4579737051835869237}
   m_Layer: 0
   m_Name: Personaje
@@ -32,8 +31,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.56609, y: 0.56609, z: 0.56609}
-  m_Children:
-  - {fileID: 4579737052413850984}
+  m_Children: []
   m_Father: {fileID: 4579737051957330548}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -121,6 +119,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fuerzaSalto: 12
   sonidoSalto: {fileID: 1309163710686930104, guid: 37400123c20e7f54794abc1115c53957, type: 3}
+  balaPrototipo: {fileID: 4829813790985471214, guid: fcddae8db172c4a4d873ce4d8d9b63cc, type: 3}
 --- !u!61 &4579737051835869238
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -147,20 +146,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.86324024, y: 0.8741809}
   m_EdgeRadius: 0
---- !u!114 &4579737051835869239
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4579737051835869232}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 710a4b32a87d845b5bdd5b8c0584fc43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  balaPrototipo: {fileID: 8795996297337746140, guid: f2c23f7d5890d4ec58b63fbdac2390ba, type: 3}
-  spawn: {fileID: 4579737052413850984}
 --- !u!50 &4579737051835869237
 Rigidbody2D:
   serializedVersion: 4
@@ -213,33 +198,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4579737052413850999
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4579737052413850984}
-  m_Layer: 0
-  m_Name: SpawnBala
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4579737052413850984
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4579737052413850999}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0.4, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4579737051835869235}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
