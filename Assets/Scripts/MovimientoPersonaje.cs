@@ -69,7 +69,7 @@ public class MovimientoPersonaje : MonoBehaviour
         if (GetComponent<SpriteRenderer>().flipX == false) direction = Vector2.right;
         else direction = Vector2.left;
 
-        GameObject bala = Instantiate(balaPrototipo, transform.position + direction * 0.1f, Quaternion.identity);
+        GameObject bala = Instantiate(balaPrototipo, transform.position + direction * 0.3f, Quaternion.identity);
         bala.GetComponent<Bala>().SetDirection(direction);
     }
 

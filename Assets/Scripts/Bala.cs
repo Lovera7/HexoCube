@@ -11,15 +11,16 @@ public class Bala : MonoBehaviour
     void Update()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
-    }
-
-    private void FixedUpdate()
-    {
         Rigidbody2D.velocity = Direction * velocidad;
     }
 
     public void SetDirection(Vector2 direction)
     {
         Direction = direction;
+    }
+
+    public void DestruirBala()
+    {
+        Destroy(gameObject);
     }
 }

@@ -2263,6 +2263,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1608097388}
   - component: {fileID: 1608097387}
+  - component: {fileID: 1608097391}
+  - component: {fileID: 1608097390}
+  - component: {fileID: 1608097389}
   m_Layer: 0
   m_Name: Torreta
   m_TagString: Untagged
@@ -2335,6 +2338,67 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1608097389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608097386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbbd6643de210437ca3a14d22fedd2c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prototipoBala: {fileID: 4829813790985471214, guid: fcddae8db172c4a4d873ce4d8d9b63cc, type: 3}
+  personaje: {fileID: 4579737051957330547, guid: 8a52387f5fe73a8409bf07e24383ecbd, type: 3}
+--- !u!61 &1608097390
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608097386}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.117967606, y: -0.0181489}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.6914673, y: 0.9637022}
+  m_EdgeRadius: 0
+--- !u!50 &1608097391
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608097386}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1001 &1622457219
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3807,6 +3871,10 @@ PrefabInstance:
       propertyPath: sonidoSalto
       value: 
       objectReference: {fileID: 1309163710686930104, guid: 37400123c20e7f54794abc1115c53957, type: 3}
+    - target: {fileID: 4579737051835869236, guid: 8a52387f5fe73a8409bf07e24383ecbd, type: 3}
+      propertyPath: balaPrototipo
+      value: 
+      objectReference: {fileID: 4829813790985471214, guid: fcddae8db172c4a4d873ce4d8d9b63cc, type: 3}
     - target: {fileID: 4579737051957330547, guid: 8a52387f5fe73a8409bf07e24383ecbd, type: 3}
       propertyPath: m_Name
       value: Player
