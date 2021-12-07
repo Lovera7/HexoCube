@@ -34,6 +34,8 @@ public class Bala : MonoBehaviour
         if (other.tag == "Torreta")
         {
             Destroy(other.gameObject);
+            
+            Destroy(gameObject);
         }
     }
 }
