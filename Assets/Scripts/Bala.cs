@@ -7,6 +7,7 @@ public class Bala : MonoBehaviour
     public float velocidad;
     private Rigidbody2D Rigidbody2D;
     private Vector2 Direction;
+    public GameObject sonidoExoplosion;
 
     void Update()
     {
@@ -34,7 +35,7 @@ public class Bala : MonoBehaviour
         if (other.tag == "Torreta")
         {
             Destroy(other.gameObject);
-            
+            Instantiate(sonidoExoplosion);
             Destroy(gameObject);
         }
     }
