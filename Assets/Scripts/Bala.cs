@@ -23,4 +23,17 @@ public class Bala : MonoBehaviour
     {
         Destroy(gameObject);
     }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Pared" || other.tag == "Suelo")
+        {
+            Destroy(gameObject);
+        }
+
+        if (other.tag == "Torreta")
+        {
+            Destroy(other.gameObject);
+        }
+    }
 }
