@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 1962817209604135481}
   - component: {fileID: 1962817209604135485}
   - component: {fileID: 1962817209604135484}
-  - component: {fileID: 1962817209604135487}
   m_Layer: 0
   m_Name: Torreta
   m_TagString: Torreta
@@ -132,15 +131,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6914673, y: 0.9637022}
   m_EdgeRadius: 0
---- !u!114 &1962817209604135487
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1962817209604135480}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbbd6643de210437ca3a14d22fedd2c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
