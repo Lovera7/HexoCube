@@ -11,20 +11,24 @@ public class Bala : MonoBehaviour
 
     void Update()
     {
+        // Definir la velocidad de nuestra bala
         Rigidbody2D = GetComponent<Rigidbody2D>();
         Rigidbody2D.velocity = Direction * velocidad;
     }
 
+    // Definir direccion de la bala
     public void SetDirection(Vector2 direction)
     {
         Direction = direction;
     }
 
+    // Destruir bala
     public void DestruirBala()
     {
         Destroy(gameObject);
     }
 
+    // Colisiones para eliminar bala y torreta
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Pared" || other.tag == "Suelo")
